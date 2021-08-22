@@ -1,10 +1,10 @@
 # WRR_NoC_analytical_model
 Analytical model of NoCs with weighted round robin (WRR) arbitration
 
-  1. Directory information
+       1. Directory information
 	- 8x8 Simulator: simulator
 	- Trace file generation: traffic_generation
-  - Analytical model: analytical_model
+        - Analytical model: analytical_model
 
 	2. Generating the trace file: We have to run the matlab file in the item 'traffic_generation/create_traces.m'. It will generate a directory named ‘lambda_<injection rate>_pb_<probability of burst>_rand_factor_<factor>’. Inside the directory the .mat files related to timestamp will be there. Below are the modifications need to be made for different size of NoC. For all simulations, the trace length is fixed (1E5 in line 59).
 	Settings for 8x8
