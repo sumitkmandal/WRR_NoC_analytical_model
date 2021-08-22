@@ -1,4 +1,4 @@
-# WRR_NoC_analytical_model
+# Theoretical Analysis and Evaluation of NoCs with Weighted Round-Robin Arbitration:An Open Source Release
 Analytical model of NoCs with weighted round robin (WRR) arbitration
 
        1. Directory information
